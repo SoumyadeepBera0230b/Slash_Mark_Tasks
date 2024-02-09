@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class NewTask {
+public class Task1 {
 
     public static void ListTask(ArrayList<String> li) {
         if (li.isEmpty()) System.out.println("No tasks to show");
@@ -27,7 +27,7 @@ public class NewTask {
 
             if (option == 1) {
                 System.out.print("Enter task name: ");
-                String taskName = sc.next();
+                String taskName = sc.nextLine();
                 li.add(taskName);
                 System.out.println("Task added.");
             }
