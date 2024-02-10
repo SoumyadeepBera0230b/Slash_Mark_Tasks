@@ -1,5 +1,6 @@
-package out;
 import java.util.*;
+import out.*;
+
 
 
 public class Task2 {
